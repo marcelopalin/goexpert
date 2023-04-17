@@ -23,4 +23,10 @@ func main() {
 	for i, v := range meuArray {
 		fmt.Printf("O valor do indice é %d e o valor é %d\n", i, v)
 	}
+
+	fmt.Printf("O tipo do meuArray é %T", meuArray)
+
+	// Causando um erro por acessar um índice que não existe
+	fmt.Println(meuArray[3])
+
 }
