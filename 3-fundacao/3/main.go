@@ -2,6 +2,7 @@ package main
 
 const a = "Hello, World!"
 
+// Criando um novo tipo personalizado
 type ID int
 
 var (
